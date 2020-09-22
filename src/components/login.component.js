@@ -16,16 +16,16 @@ export default class Login extends Component {
                     <input type="password" className="form-control" placeholder="Enter password" /><img className="icon-pass" />
                 </div>
 
-                <div className="form-group"><p />
+                <div className="form-group submit-login"><p />
                     <div className="custom-control custom-checkbox">
                         <input type="checkbox" className="" />
                         <label className="">Remember me</label>
                     </div>
+                    <button type="submit" className="btn-submit">Submit</button>
                 </div>
 
-                <button type="submit" className="btn-submit">Submit</button>
                 <p className="forgot-password text-right">
-                    Forgot  <a href="#">password?</a>
+                    <a href="#"> Forgot Password?</a>
                 </p>
             </form>
         );

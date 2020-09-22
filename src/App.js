@@ -22,8 +22,8 @@ function App() {
 
       </nav>
 
-      <div className="div-login">
-        <div className="div-login-parent">
+      <div className="div-login-parent">
+        <div className="div-login">
           <Switch>
             <Route exact path='/' component={Login} />
             <Route path="/sign-in" component={Login} />
